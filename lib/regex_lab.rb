@@ -1,10 +1,8 @@
 def starts_with_a_vowel?(word)
-  word.each do |word|
-  if word.match(/\b[aeiou][a-z]*\b/)
+  if word.match(/[aeiouAEIOU][a-z]*/)
    true
   else
     false
-  end
   end
 end
 
